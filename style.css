@@ -1,0 +1,126 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;   
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2px;
+}
+
+.wrapper { 
+
+  display: flex;
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: center;  
+  height: 100%;
+  margin: 20px;
+  max-width: 100%;
+  flex: 1;  
+  background: rgba(186,197,200, 0.1);      
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border-radius: 20px;
+  padding: 20px;
+ 
+}
+
+.wrapper-header { 
+	display: flex;
+	flex-direction: column;  
+	align-items: center;  
+	justify-content: center;  
+	height: 100%;
+	width: 500px;
+	margin: 10px;
+		
+	background: rgba(186,197,200, 0.1);      
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	border-radius: 20px;
+	padding: 10px;
+   
+  }
+
+
+.wrapper-menu { 
+
+	display: flex;
+	flex-direction: row;  
+	align-items: center;  
+	justify-content: center;  
+	height: 100%;
+	margin: 20px;
+	max-width: 100%;
+	flex: 1;  
+	background: rgba(186,197,200, 0.1);      
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+	border-radius: 20px;
+	padding: 20px;
+   
+}
+
+
+.profile-picture {
+  border-radius: 20%;
+  margin: 5px
+}
+
+.bio {	
+	
+   text-align: justify;   
+   margin-left:5%;
+   margin-right:5%;	
+}
+
+.work {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: justify; 
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 2px;	
+	color: white;		
+}
+
+.button{
+	display: flex;
+    flex-direction: column;  
+	align-items: center;  
+	justify-content: center;  
+	height: 100%;
+	width: 180px;	
+	max-width: 100%;	  
+	background: rgba(59, 159, 226, 0.5);      
+	color: white;	
+	border-radius: 20px;
+	padding: 20px;
+	margin: 5px;
+}
+
+
+
+a{
+  text-decoration:none;
+  color: inherit;
+}
+
+html {
+    height: 100%;    	
+	background: linear-gradient(180deg, rgba(4,1,53,1) 0%, rgba(0,0,0,1) 35%, rgba(7,63,82,1) 100%);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat:no-repeat		
+}
+
